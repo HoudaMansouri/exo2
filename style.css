@@ -24,19 +24,28 @@ body {
 .titre {
     color:white;
     margin: 15px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 .exp{
     color: hsl(215, 51%, 70%);
     margin: 15px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
 }
 .color1{
     margin: 15px;
     color:hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .color2{
-    margin: 60px;
+    margin: 30px;
     text-align: right;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
 }
 
 hr{
@@ -44,3 +53,29 @@ hr{
     background-color: black;
     height: 1px;
 }
+.avatar {
+    width: 45px;
+    border:solid white;
+    border-radius:25px;
+    border-width: 1px;
+}
+
+.signature {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin: 15px;
+    
+}
+
+.texte1 {
+    margin: 15px;
+
+
+}
+
+.texte2 {
+     color: white;
+     font-size: 15px;
+ }
